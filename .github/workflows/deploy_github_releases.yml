@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Setup build environment
-      uses: android-password-store/android-password-store/.github/reusable-workflows/setup-gradle@develop
+      uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@main
 
     - name: Decrypt secrets
       shell: bash
