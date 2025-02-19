@@ -36,6 +36,7 @@
       ],
     },
     {
+      // Compose compiler is tightly coupled to Kotlin version
       groupName: 'Kotlin and Compose',
       matchPackageNames: [
         'androidx.compose.compiler{/,}**',
@@ -55,8 +56,11 @@
       ],
       enabled: false,
       matchPackageNames: [
+        // Later versions require newer JDKs
         '/^org.eclipse.jgit/',
+        // AGP dictates the version we can use
         '/^com.android.tools:desugar_jdk_libs/',
+        // Later versions require newer JDKs
         '/^commons-codec:commons-codec/',
       ],
     },
