@@ -8,7 +8,7 @@ hilt = "2.52"
 kotlin = "2.0.21"
 kotlinResult = "2.0.1"
 lifecycle = "2.8.6"
-moshi = "1.15.1"
+moshi = "1.15.2"
 
 [libraries]
 android-desugarJdkLibs = "com.android.tools:desugar_jdk_libs:2.0.4"
