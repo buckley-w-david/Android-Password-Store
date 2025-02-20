@@ -44,13 +44,6 @@
       ],
     },
     {
-      groupName: 'sentry',
-      matchPackageNames: [
-        '/^io.sentry/',
-        '/^sentry/',
-      ],
-    },
-    {
       matchManagers: [
         'gradle',
       ],
