@@ -19,7 +19,7 @@ jobs:
       security-events: write
     steps:
     - name: Setup build environment
-      uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@main
+      uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@ec41adad216b7943ec5d07f4e9b6d17afa90d685 # main
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@ff0a06e83cb2de871e5a09832bc6a81e7276941f # v3.28.18

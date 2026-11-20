@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup build environment
-        uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@main
+        uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@ec41adad216b7943ec5d07f4e9b6d17afa90d685 # main
 
       - name: Check codestyle
         shell: bash
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup build environment
-        uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@main
+        uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@ec41adad216b7943ec5d07f4e9b6d17afa90d685 # main
 
       - name: Run unit tests
         shell: bash
@@ -54,7 +54,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup build environment
-        uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@main
+        uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@ec41adad216b7943ec5d07f4e9b6d17afa90d685 # main
 
       - name: Build debug APKs
         shell: bash
@@ -71,7 +71,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup build environment
-        uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@main
+        uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@ec41adad216b7943ec5d07f4e9b6d17afa90d685 # main
 
       - name: Check library API
         shell: bash
@@ -88,7 +88,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup build environment
-        uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@main
+        uses: buckley-w-david/android-password-store/.github/reusable-workflows/setup-gradle@ec41adad216b7943ec5d07f4e9b6d17afa90d685 # main
 
       - name: Run Lint
         shell: bash
